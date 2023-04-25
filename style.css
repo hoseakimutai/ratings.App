@@ -1,0 +1,140 @@
+body {
+    text-align: center;
+    background-color:black;
+    width: 40vw;
+    padding-top: 20px;
+    margin: auto;
+}
+
+.container {
+    background-color: grey;
+    border-radius: 7px;
+    text-align: center;
+    margin: auto;
+
+}
+
+.container button {
+    border-radius: 11px;
+    text-align: center;
+    background-color:gold;
+    color: white;
+
+}
+.numbers .btn-1{
+    
+    background-color: black;
+}
+.stars  {
+  color: yellow;
+}
+.numbers{
+    text-align: center;
+
+}
+
+
+/* .submit button{
+    background-color: blue;
+    border-radius: 7px;
+    padding-bottom: 5px;
+    color: #000;
+} */
+#myBtn {
+    background-color: yellow;
+    border-radius: 7px;
+    padding-bottom: 5px;
+    color: #00000096;
+}
+
+.rating-content button {
+    border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0.39);
+    color: orangered;
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    -webkit-animation-name: fadeIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: fadeIn;
+    animation-duration: 0.4s
+}
+
+.rating-content {
+    background-color: grey;
+    margin: auto;
+    padding-top: 20px;
+    border: 1px solid white;
+    width: 40vw;
+}
+
+
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Add Animation */
+@-webkit-keyframes slideIn {
+    from {
+        bottom: -300px;
+        opacity: 0
+    }
+
+    to {
+        bottom: 0;
+        opacity: 1
+    }
+}
+
+@keyframes slideIn {
+    from {
+        bottom: -300px;
+        opacity: 0
+    }
+
+    to {
+        bottom: 0;
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
