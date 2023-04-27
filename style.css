@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    background-color:black;
+    background-color:white;
     width: 40vw;
     padding-top: 20px;
     margin: auto;
@@ -25,11 +25,14 @@ body {
     
     background-color: black;
 }
-.stars  {
+.icon {
   color: yellow;
+  margin: auto;
+  
 }
 .numbers{
     text-align: center;
+    color: #000;
 
 }
 
@@ -95,7 +98,7 @@ body {
 }
 
 /* Add Animation */
-@-webkit-keyframes slideIn {
+/* @-webkit-keyframes slideIn {
     from {
         bottom: -300px;
         opacity: 0
@@ -137,4 +140,4 @@ body {
     to {
         opacity: 1
     }
-}
+} */
