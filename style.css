@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    background-color:white;
+    background-color: black;
     width: 40vw;
     padding-top: 20px;
     margin: auto;
@@ -12,27 +12,26 @@ body {
     text-align: center;
     margin: auto;
 
+
 }
 
 .container button {
     border-radius: 11px;
     text-align: center;
-    background-color:gold;
+    background-color: black;
     color: white;
 
 }
-.numbers .btn-1{
-    
-    background-color: black;
-}
+
 .icon {
-  color: yellow;
-  margin: auto;
-  
+    color: yellow;
+    margin: auto;
+
 }
-.numbers{
+
+.rate-btns {
     text-align: center;
-    color: #000;
+    color: grey;
 
 }
 
@@ -51,7 +50,7 @@ body {
 }
 
 .rating-content button {
-    border-radius: 7px;
+
     background-color: rgba(0, 0, 0, 0.39);
     color: orangered;
 }
@@ -80,6 +79,7 @@ body {
     padding-top: 20px;
     border: 1px solid white;
     width: 40vw;
+    border-radius: 15px;
 }
 
 
@@ -88,6 +88,7 @@ body {
     float: right;
     font-size: 28px;
     font-weight: bold;
+    padding-top: 0px;
 }
 
 .close:hover,
@@ -98,7 +99,7 @@ body {
 }
 
 /* Add Animation */
-/* @-webkit-keyframes slideIn {
+@-webkit-keyframes slideIn {
     from {
         bottom: -300px;
         opacity: 0
@@ -140,4 +141,4 @@ body {
     to {
         opacity: 1
     }
-} */
+}

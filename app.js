@@ -1,8 +1,14 @@
 var modal = document.getElementById("myRating");
 
+var span = document.getElementsByClassName("close")[0];
+
 var btn = document.getElementById("myBtn");
 
-var span = document.getElementsByClassName("close")[0];
+const submit = document.querySelector(".submit");
+
+rate = document.querySelectorAll(".rate");
+
+selected = document.querySelector(".selected")
 
 var numbers = document.getElementsByClassName("numbers");
 
@@ -17,6 +23,92 @@ window.onclick = function (event) {
     modal.style.display = "none";
   }
 }
+rate.forEach((rateBtns) => {
+  rateBtns.addEventListener("click", () => {
+    submit.addEventListener("click", () => {
+      displayEnd.style.display = "block";
+      displayStart.style.display = "none";
+      selected.textContent = rateBtns.textContent;
+    });
+  });
+});
+
+document.querySelector(".btn-one").addEventListener
+  ('click', function (e) {
+    console.log('You have selected 1 out of 5');
+
+    const target = e.target;
+
+    if (target.matches('button')) {
+      target.style.backgroundColor = 'yellow'
+    };
+  });
+
+
+document.querySelector(".btn-two").addEventListener
+  ('click', function (e) {
+    console.log('You have selected 2 out of 5');
+
+    const target = e.target;
+
+    if (target.matches('button')) {
+      target.style.backgroundColor = 'yellow'
+    };
+  });
+
+
+document.querySelector(".btn-three").addEventListener
+  ('click', function (e) {
+    console.log('You have selected 3 out of 5');
+
+    const target = e.target;
+
+    if (target.matches('button')) {
+      target.style.backgroundColor = 'yellow'
+    };
+  });
+
+
+document.querySelector(".btn-four").addEventListener
+  ('click', function (e) {
+    console.log('You have selected 4 out of 5');
+
+    const target = e.target;
+
+    if (target.matches('button')) {
+      target.style.backgroundColor = 'yellow'
+    };
+  });
+
+
+document.querySelector(".btn-five").addEventListener
+  ('click', function (e) {
+    console.log('You have selected 5 out of 5');
+
+    const target = e.target;
+
+    if (target.matches('button')) {
+      target.style.backgroundColor = 'yellow'
+    };
+  });
+
+
+
+
+
+// document.querySelector('.rate-btns').addEventListener
+//   ("click", function (e) {
+//     console.log(e.target.getAttribute('id') + 'is clicked');
+
+//     const target = e.target;
+
+//     if (target.matches('button')) {
+//       target.style.backgroundColor = 'yellow'
+//     };
+//   });
+
+
+
 
 {/* <script>
       // Get the rating
